@@ -11,7 +11,7 @@ allprojects {
 ```
 ```
 dependencies {  
-	        compile 'com.github.Gcrj:ToggleButton:1.0.0'  
+	        compile 'com.github.Gcrj:ToggleButton:1.0.1'  
 	}
 ```
 
