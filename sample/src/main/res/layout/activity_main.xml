@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_toggle_button"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="开关1" />
+
+        <com.gcrj.togglebuttonlibrary.ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:back_checked_color="#FF0000"
+            app:back_unchecked_color="#0000FF"
+            app:circle_color="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="开关2" />
+
+        <com.gcrj.togglebuttonlibrary.ToggleButton
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            app:anim_duration="500"
+            app:checked="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="开关3" />
+
+        <com.gcrj.togglebuttonlibrary.ToggleButton
+            android:layout_width="35dp"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="开关4" />
+
+        <com.gcrj.togglebuttonlibrary.ToggleButton
+            android:id="@+id/tb"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            app:anim_duration="200"
+            app:back_checked_color="#FF0000"
+            app:back_unchecked_color="#0000FF"
+            app:checked="true"
+            app:circle_color="#000000"
+            app:stroke_width="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="开关5" />
+
+        <com.gcrj.togglebuttonlibrary.ToggleButton
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            app:checked="true" />
+    </LinearLayout>
+
+</LinearLayout>
